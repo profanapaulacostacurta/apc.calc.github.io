@@ -1,4 +1,4 @@
-import { soma, somaArray } from './modulos/soma.js';
+import { soma, somaArray } from 'modulos/soma.js';
 
 function testar(){
  var soma = "A soma de 3 + 5 é "+ soma(3,5);

@@ -1,5 +1,5 @@
 import { soma, somaArray } from './modulos/soma.js';
 
 function testar(){
- document.getElementById("calculo").innerHTML= alert(soma(3,5);
+ document.getElementById("calculo").innerHTML= soma(3,5);
 }

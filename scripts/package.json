@@ -1,0 +1,11 @@
+{
+  "name": "main_app",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "calc.js",
+  
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

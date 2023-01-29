@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <title> Teste de script </title>
-    <script type="module" src="../scripts/calc.js"></script>
+    <script type="module">import {testar} from "../scripts/calc.js";</script>
   </head>
   <body>
    <main> 
       <div class="container col-sm-10 mx-auto">
-        <input type="button" onclick="teste();" value="Testar"/>
+        <input type="button" onclick="teste();" value="Teste"/>
+        <input type="button" onclick="testar();" value="Testar"/>
         <p id="calculo"></p>
       </div>
    </main>
@@ -16,5 +17,6 @@
      function teste(){
        testar();
      }
+   </script>
   </body>
 </html>
